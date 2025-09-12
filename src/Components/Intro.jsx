@@ -1,7 +1,7 @@
 import React from "react";
 import "./components.css"
 
-import logo from "../Assets/logo.png";
+import logo from "../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
 function Intro() {
@@ -19,5 +19,6 @@ function Intro() {
         </div>
     );
 }
+
 
 export default Intro;
