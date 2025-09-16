@@ -13,7 +13,7 @@ function NavBar({logo}) {
             <ul className="nav-links">
                 <li>About</li>
                 <li>Features</li>
-                <button className="btn p-1 pl-1.5 pr-1.5 md:p-2.5 md:pl-5 md:pr-5 text-sm" onClick={() => navigate('/login')}>Login</button>
+                <button className="btn p-1 pl-1.5 pr-1.5 md:p-2.5 md:pl-5 md:pr-5 text-l md:text-xl" onClick={() => navigate('/login')}>Login</button>
 
             </ul>
         </nav>

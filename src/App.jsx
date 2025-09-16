@@ -19,11 +19,14 @@ function App() {
 
       <BrowserRouter >
         <NavBar logo={logo} />
-        <Routes className ="min-h-screen flex-grow">
-          <Route path='/' element={<Intro />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/signup' element={<SignUp />} />
-        </Routes>
+        <div className='flex justify-center items-center h-[85vh]'>
+          <Routes >
+            <Route path='/' element={<Intro />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/signup' element={<SignUp />} />
+          </Routes>
+        </div>
+
         <Footer />
       </BrowserRouter>
     </div>
