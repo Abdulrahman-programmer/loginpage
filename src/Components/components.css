@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme{
-    --color-Button-bg: #164EE9;
+    --color-Button-bg: #2755AF;
 }
 
 @layer components{

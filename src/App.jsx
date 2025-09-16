@@ -19,7 +19,7 @@ function App() {
 
       <BrowserRouter >
         <NavBar logo={logo} />
-        <Routes >
+        <Routes className ="min-h-screen flex-grow">
           <Route path='/' element={<Intro />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
