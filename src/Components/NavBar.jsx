@@ -6,14 +6,14 @@ function NavBar({logo}) {
         
         <nav className="navbar">
             <div className="flex items-center">
-                <img src={logo} alt="" srcSet="" className="h-15" />
-                <h1 className="text-4xl text-blue-700 font-bold">StockSync</h1>
+                <img src={logo} alt="LOGO"  className=" h-10 md:h-15" />
+                <h1 className="brand">Vyapix</h1>
             </div>
 
-            <ul className="flex space-x-8 text-lg font-medium items-center">
+            <ul className="nav-links">
                 <li>About</li>
                 <li>Features</li>
-                <button className="btn" onClick={() => navigate('/login')}>Login</button>
+                <button className="btn p-1 pl-1.5 pr-1.5 md:p-2.5 md:pl-5 md:pr-5 text-sm" onClick={() => navigate('/login')}>Login</button>
 
             </ul>
         </nav>

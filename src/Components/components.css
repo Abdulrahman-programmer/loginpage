@@ -26,12 +26,22 @@
     .Intro-text{
         @apply  flex flex-col items-center justify-center text-center 
     }
+    .brand{
+        @apply text-2xl text-Button-bg font-bold
+        md:text-4xl
+    }
     .navbar{
-        @apply flex items-center justify-between p-5
+        @apply flex items-center justify-between p-2
+        md:p-5
         
+    }
+    .nav-links{
+        @apply flex space-x-2 text-lg font-medium items-center
+        md:space-x-8
     }
     .footer{
         @apply bg-linear-to-r  from-[#141433] to-[#2F2F75] text-white mt-12
+      
     }
     .footer-container{
         @apply flex flex-col items-center justify-center text-center p-6 mt-12
